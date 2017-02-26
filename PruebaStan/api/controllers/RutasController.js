@@ -74,8 +74,6 @@ module.exports = {
 
 		}
 	},
-	
-	
 	crearGrupo: function (req, res) {
 
 		return res.view('vistas/Grupo/crearGrupo')
@@ -102,7 +100,6 @@ module.exports = {
 				res.view('vistas/Grupo/listarGrupos', {
 					grupos: gruposEncontrados
 				})
-
 			})
 	},
 	
@@ -121,4 +118,3 @@ module.exports = {
 	}
 	
 };
-
